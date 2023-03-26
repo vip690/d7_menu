@@ -1,0 +1,12 @@
+Elastic
+Malicious (moderate Confidence)
+Google
+Detected
+Ikarus
+Trojan-Downloader.Win32.Delf
+Kaspersky
+HEUR:Trojan-Spy.Win32.Generic
+MaxSecure
+Trojan.Malware.300983.susgen
+Rising
+Trojan.Generic@AI.88 (RDML:a16gdJYyUrJ9yF+1C
