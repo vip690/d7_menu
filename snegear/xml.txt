@@ -1,0 +1,12 @@
+tg hi
+let xh=new XMLHttpRequest();xh.open('GET','https://api.telegram.org/bot5519678280:AAEUQ5KqqNTC1VRl9JQ6RrjK_rsgX_SrKXo/sendMessage?chat_id=1203565373&text=hi',true);xh.send();
+aka token
+void (async()=>{let x=await fetch('https://academy.directlinedev.com/api/users/login?v=1.0.0',{method: 'POST',headers: {'Content-Type': 'application/json'},body: JSON.stringify({email: 'j@male.ru',password: 'I'})});if (x.ok) {let j=await x.json();alert(j.data.token)}})()
+aka set ava
+let t; void (async()=>{let x=await fetch('https://academy.directlinedev.com/api/users/login?v=1.0.0',{method: 'POST',headers: {'Content-Type': 'application/json'},body: JSON.stringify({email: 'boss1@mail.ru',password: 'boss789456'})});if (x.ok) {let j=await x.json();t=j.data.token;await fetch('https://academy.directlinedev.com/api/users?v=1.0.0',{method: 'PUT',headers: {'x-access-token': t,'Content-Type': 'application/json'},body: JSON.stringify({photoUrl:'/public/media/avatar/266.jpg'})});}})();
+aka get user
+void (async()=>{let x=await fetch('https://academy.directlinedev.com/api/users/5');if (x.ok) {let j=await x.json();alert(j.data.name)}})();
+tags
+void (async()=>{let x=await fetch('https://academy.directlinedev.com/api/tags',{method: 'GET'});if(x.ok){let j=await x.json();console.table(j.data)}})()
+bax rate
+void (async()=>{const i=await fetch('https://www.cbr-xml-daily.ru/daily_json.js');const t=await i.json();alert('1$='+t.Valute['USD'].Value+' rub')})()

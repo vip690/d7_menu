@@ -1,0 +1,72 @@
+normalize
+*:not(hr), *::after, *::before {box-sizing: border-box;margin:0;padding:0;border:0}ul {list-style-type: none}
+a href
+html{scroll-behavior: smooth}a{text-decoration: none;color: inherit}
+fuck
+{display:flex;justify-content: space-between; align-items: center;}
+violet
+ee82ee
+base64
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+A-z
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+A-Z
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+А-я
+АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
+А-Я
+АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
+favocon
+<link rel="shortcut icon" href="favicon.ico">
+js shuffle
+a=a.sort((x,y)=>Math.random()-0.5);
+время анимации
+-webkit-transition: all 0.5s
+nth-child(2)
+li:nth-child(2)::after {top: 15px; left: 15px}
+location
+<button type="button" onclick="window.location.href='http://sem6703.ru/razbor5/'">xxx</button>
+capitalization
+f = a => a[0].toUpperCase() + a.slice(1).toLowerCase();
+градиент
+background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.1))
+js array 2D
+const x13= Array(2).fill(0).map(() => Array(2).fill(0));
+FormKeyDown
+case key of 37:dec(aa[p.X][p.Y].x,5);38:dec(aa[p.X][p.Y].y,5); 39: inc(aa[p.X][p.Y].x,5); 40:inc(aa[p.X][p.Y].y,5);end;
+media
+@media screen and (max-width: 320px) {}
+flex
+display:flex;justify-content: space-between;align-items: center;
+grid
+display: grid;grid-template-columns: 1fr 1fr ;grid-template-rows:1fr;
+стяжка
+<span style='white-space: nowrap;'>C++</span>
+style
+<link href="./style.css" rel="stylesheet">
+box-shadow
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+text-shadow
+text-shadow: 1px 1px 2px pink;
+table style
+border-collapse: collapse; border: 3px solid black; width: 100%; text-align: center;
+text-overflow
+text-overflow:clip;	white-space: normal; w0ord-break: break-all;
+favicon base64
+<link rel="icon" type="image/x-icon" href="data:image/png;base64,R0lGODlhEAAQAOZ/APHXq//WWuKkPPjr1e7NlqySaei1Uf/ZZO7BZei7c//dbcTCwebm5v/KKf/ihf/iery4s+SuVPDw8MSONf/ffrKMT//XVv/ONf/NMv/cdf/RRf/OOv/JI+GqS9PS0v/dcP/TUf/ee//bb//RSf369ePj4//YXf/PPurBfLyzpP3COP3QYPrbiv/XcvT09P/QKd2eMdGPGf7NTv/YVPu/JP7PYP7OVu/Qnf3RVPTbsL6PQNvVzNnY2P3Ybf348crKyvGvF//kk/nRZPzHL+m4V9OQHeHg3+SwV/e+SO65U/vVaq6KT/KvIfPz8+7u7vfGaP/kjcuJGbmqkv/cafXo0fW0LvG9VfS5ILqJOfXNavWzM/CxP/C7Pf/NK/79++2uObCOUuWrRuClQ8yQJ/7km//ggtiXJfrDSffnztzSwv/bYP/TTv7UTeW1Zuq+av/LLP/khv/hf93d3dyXHeCYCv/abPPct8iSNfbZlMqWPs7Ozq2cg+uqFf/QQe29Wv///yH5BAEAAH8ALAAAAAAQABAAAAfRgH+CgwNHKIOIiV4ReG4AiZAERHAsHT6Qg2gwQh8PCAkkiCR2CWJzXBYBBz0GHW0EA38CdHxXQxt9IyCqSlkIYQACQC9dDRwNFycaaxZqCltSO0UtDiEHG8cYGxpsWksefykRZEFBDgFv2UxYC02Ce09QZRQUGSAXNFEQToNpSdUZRNQRMcWGDgaIchCJk+GDggMmLMi4IwHRDT8PPqxAcgbHjBFjEA4iYKXGlwkFKpipoiKGEURU8lTYs0BOCQgFJoAROYiHnhIuBknw8KPin0AAOw==">
+table style
+table,td{padding:32px;border:5px solid blue;border-collapse: collapse;border-spacing: 0;}
+body background
+background-repeat: no-repeat; background-attachment: fixed;
+Elevator(part1 js)
+(function () {/*Elevator*/var l=document.querySelector('.lift');var V = 500;if (!l) return;  l.addEventListener('click',()=>{window.scrollTo({top: 0,behavior: 'smooth'});});  window.addEventListener('scroll',()=>{if (window.pageYOffset>V)l.classList.remove('hidden');if (window.pageYOffset<V)l.classList.add('hidden');});})(); //Elevator
+Elevator(part2 html)
+<div class="lift hidden" style="position: fixed;right: 50px;bottom: 50px;width: 42px;aspect-ratio:1;background: #43806C;border: 2px solid #43806C;border-radius: 50%;cursor: pointer;padding-left: 7px;padding-top: 7px;z-index: 8;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M2.4 15.8L12.0 6.2 21.6 15.8" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="rotate(0 12 12)"></path></svg></div>
+Elevator (part3 css)
+.hidden{display: none}
+use strict
+'use strict'; try {throw new Error(`Привет, полет нормальный`);/*const e = new Error('Не выведится');throw e; const message = 'Не выведется';	throw message;*/  } catch (e) {throw new Error('Хуле, страница отресована-можно ипать гусей');alert('нельзя бухать');}
+js copy
+<button id="note" onclick="cop.select();document.execCommand('copy');window.getSelection()?.removeAllRanges();">Copy</button><textarea id="cop" style="width: calc(100% - 6px);height:222px;background:#ded;p0osition:absolute; l0eft:-9999px;">для копирования</textarea>
+Lorem
+Lorem ipsum dolor sit amet, consectetur adipiscing elitorire aenean a dapibus magna, ac interdum nisl. Suspendisse egetil fringilla nibh, eu commodo arcu. Donec lacinia tempor velite sed tincidunt. Aliquam porttitor nulla purus, vel vulputater ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi ante purus lacini dui, interdum fringilla massa eros ut duir.
