@@ -25,7 +25,9 @@ a=a.sort((x,y)=>Math.random()-0.5);
 nth-child(2)
 li:nth-child(2)::after {top: 15px; left: 15px}
 location
-<button type="button" onclick="window.location.href='http://sem6703.ru/razbor5/'">xxx</button>
+<button type="button" onclick="window.location.href='http://sem6703.ru'">xxx</button>
+location-2
+onclick="window.open('http://pet/index.php?ava=4404', '_blank')"
 capitalization
 f = a => a[0].toUpperCase() + a.slice(1).toLowerCase();
 градиент
