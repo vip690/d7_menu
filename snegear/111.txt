@@ -16,7 +16,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 А-Я
 АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
-favocon
+favicon
 <link rel="shortcut icon" href="favicon.ico">
 js shuffle
 a=a.sort((x,y)=>Math.random()-0.5);
@@ -70,5 +70,7 @@ use strict
 'use strict'; try {throw new Error(`Привет, полет нормальный`);/*const e = new Error('Не выведится');throw e; const message = 'Не выведется';	throw message;*/  } catch (e) {throw new Error('Хуле, страница отресована-можно ипать гусей');alert('нельзя бухать');}
 js copy
 <button id="note" onclick="cop.select();document.execCommand('copy');window.getSelection()?.removeAllRanges();">Copy</button><textarea id="cop" style="width: calc(100% - 6px);height:222px;background:#ded;p0osition:absolute; l0eft:-9999px;">для копирования</textarea>
+keyboard move
+ //*** выбранная точка перемещается курсорными клавишамиdocument.addEventListener('keydown', (e) => {// // сканирование клавы switch(e.key) {//case 'ArrowDown': //y+=1;// точки ломаной break;case 'ArrowUp': //	y-=1;break;	case 'ArrowRight': //	x+=1;break;	case 'ArrowLeft': //x-=1;break;case '0': // numpad0  default: break;}// switch e.preventDefault();});
 Lorem
 Lorem ipsum dolor sit amet, consectetur adipiscing elitorire aenean a dapibus magna, ac interdum nisl. Suspendisse egetil fringilla nibh, eu commodo arcu. Donec lacinia tempor velite sed tincidunt. Aliquam porttitor nulla purus, vel vulputater ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi ante purus lacini dui, interdum fringilla massa eros ut duir.
