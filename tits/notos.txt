@@ -1,4 +1,4 @@
-ми
-ми
+collapse
+border-collapse: collapse;
 Россия
 Россия
